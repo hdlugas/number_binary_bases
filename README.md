@@ -1,3 +1,3 @@
-# number_binary_bases
+# Number of distinct bases for R^n consisting of vectors whose entries are 0's and 1's
 
 This script computes the number of distinct bases for R^n consisting of vectors whose entries are 0's and 1's. With the motivation of finding a closed-form solution, let's call this number N(n). The order of the general linear group of nxn matrices over the field of two elements is the number of bases for R^n whose entries are 0's and 1's such that the matrix whose columns are the basis elements has an odd, determinant. By denoting the number of non-zero, even determinant nxn matrices whose entries are 0's and 1's as epsilon(n), we have that N(n)=|GL_n(F2)|+epsilon(n). Thus, if we could count the number of nxn matrices with entries being 0's and 1's and with non-zero, even determinant, we would have a closed-form solution for N(n). To my knowledge, this has yet to be done.

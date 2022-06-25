@@ -113,9 +113,8 @@ if n == 5:
                             count_epsilon += 1
 
 
-
-N = numb_lin_indep_mat/math.factorial(n)#avoid overcounting due to counting permutations of the same basis data as distinct bases
-
+#avoid overcounting due to counting permutations of the same basis as distinct bases
+N = numb_lin_indep_mat/math.factorial(n)
 
 #display results
 print('The columns of the matrix \n',data,'\nare the possible basis elements for R ^ ',n,'consisting of only 0\'s and 1\'s.\n')
